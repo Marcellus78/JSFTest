@@ -12,7 +12,7 @@ public class Menedzer {
     public Menedzer(){
         spolki=new ArrayList<>(3);
         Date d=new Date();
-        spolki.add(new Spolka("Kocia Spolka Weglowa","KSW","energetyczny",20.0,11.0,d));
+        spolki.add(new Spolka("Kocia Spółka Weglowa","KSW","energetyczny",20.0,11.0,d));
         spolki.add(new Spolka("KitKompDotCom", "KKDC", "informatyczny", 90.0, 3.4, d));
         spolki.add(new Spolka("Kocie Dance Studio", "KDS", "rozrywkowy", 15.0, -11.7, d));
         Date wczoraj=new Date(d.getTime()-86400000);
